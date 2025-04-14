@@ -11,7 +11,7 @@
 #
 
 # 设置默认ip
-sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/luci2/bin/config_generate
+sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/luci2/bin/config_generate
 
 # 移除要替换的包
 rm -rf feeds/luci/applications/luci-app-passwall
